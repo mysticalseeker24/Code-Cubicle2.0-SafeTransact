@@ -1,6 +1,6 @@
 {
-    "network": "goerli",
-    "address": "0x16adDCBA941dbAcB0433c140fD81Bfe513e49Ad3",
+    "network": "Sepolia",
+    "address": "0xC2517e892B487A3d6F37d81F70cBC9C7ab4C509B",
     "abi": [
         {
             "inputs": [

@@ -16,10 +16,10 @@ const Navbar = () => {
         let chainId = await ethereum.request({ method: 'eth_chainId'})
         console.log('Connected to chain:' + chainId)
   
-        const GoerlaChainId = '0x5'
+        const SepoliaChainId = '0x11155111'
   
-        if (chainId !== GoerlaChainId) {
-          alert('You are not connected to the Goerla Testnet!')
+        if (chainId !== ChainId) {
+          alert('You are not connected to the Sepolia Testnet!')
           return
         } else {
           setCorrectNetwork(true);
@@ -46,7 +46,7 @@ const Navbar = () => {
           <span className="text-2xl font-[Poppins] cursor-pointer">
             <img
               className="h-[1.875rem] w-[7.5rem] inline "
-              src="/logo.png"
+              src="/client\components\common\logo.png"
 
             />
           </span>
